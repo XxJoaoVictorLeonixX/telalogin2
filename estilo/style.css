@@ -42,7 +42,7 @@ input::placeholder{
     color: rgba(0, 0, 0, 0.521);
 }
 .botao{
-    width: 350px;
+    width: 250px;
     height: 40px;
     background-image: linear-gradient(to right,#5A20FA,#8002E0,#DA2CF4);
     color: white;
@@ -59,4 +59,5 @@ input::placeholder{
 }
 a{
     color: #902DFA;
+    font-weight: bolder;
 }
