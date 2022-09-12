@@ -70,4 +70,7 @@ a{
     .principal{
         width: 90%;
     }
+    .terms{
+        text-align: center;
+    }
 }
