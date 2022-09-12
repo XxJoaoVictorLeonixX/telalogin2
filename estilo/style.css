@@ -64,3 +64,8 @@ a{
 .terms{
     text-decoration: none;
 }
+@media only screen and (max-width:600px){
+    .principal{
+        width: 380px;
+    }
+}
