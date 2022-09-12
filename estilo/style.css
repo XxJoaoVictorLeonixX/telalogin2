@@ -9,11 +9,11 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to right,#E161D0,#D984FA,#A576F5);
+    background-image: linear-gradient(to right,#E34982,#FA5CF7,#8E49FA);
 }
 .principal{
     width: 550px;
-    height: 425px;
+    height: 480px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,15 +26,37 @@ body{
     border-radius: 20px;
     gap: 20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    background-image: linear-gradient(to right,#D6BAD6,#E6AEF5,#EBB2D6);
 }
 input{
-    height: 35px;
-    width: 250px;
+    height: 40px;
+    width:320px;
     border: none;
     outline: none;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.493);
+    border-radius: 10px;
+    background:#D0B0D7 ;
 }
 input::placeholder{
     font-weight: bolder;
     font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.521);
+}
+.botao{
+    width: 350px;
+    height: 40px;
+    background-image: linear-gradient(to right,#5A20FA,#8002E0,#DA2CF4);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.botao:hover{
+    background-image: linear-gradient(to right,#E458F4,#B15EE0,#8D4DFA);
+}
+.txtbtn{
+    font-size: 1.2em;
+}
+a{
+    color: #902DFA;
 }
